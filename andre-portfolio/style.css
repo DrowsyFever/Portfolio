@@ -1,0 +1,445 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: content-box;
+    width: 100%;
+
+}
+
+/* Barra de navegacao */
+.container-fluid{
+    container: flex;
+    display: flex;
+    max-width: 20%;  
+    padding: 0px !important
+}
+
+body {
+    background-color: #DFE0DF;
+    font-family: 'Fira Sans Extra Condensed', sans-serif;
+}
+
+.barracima{ 
+    background-color: #050F34;
+    height: 5rem;
+}
+
+ .dbarracima1{
+    container: flex;
+    max-width: 50%;
+    height: 5rem;
+    background-color: #050F34;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+} 
+
+.icon{
+    font-family: 'Fira Sans Extra Condensed', sans-serif;
+    color: #050F34;
+    margin: 5px;
+    text-decoration: none;   
+    width: 100px; 
+}
+
+.paginaselecionada{
+    font-family: 'Fira Sans Extra Condensed', sans-serif;
+    color: white;
+    font: bolder;
+    font-size: 20px;
+    margin: 10px;
+    text-decoration: none;    
+    display: flex;
+    justify-content: end;
+}
+
+.paginaselecionada:hover{
+    color: #0094CC;
+    text-decoration: underline;
+}
+
+.abas{
+    font-family: 'Fira Sans Extra Condensed', sans-serif;
+    color: white;
+    font: bolder;
+    font-size: 20px;
+    margin: 10px;
+    text-decoration: none;  
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.abas:hover{
+    color: #0094CC;
+    text-decoration: underline;
+}
+
+.logobarra{
+    max-width: 60px;
+    border-radius: 2px;
+    max-height: 50px;
+    background-color: #050F34;
+    padding: 10px;
+}
+
+/* Footer */
+.footer{
+    background-color: #050F34;
+    padding: 15px;
+    display: block;
+    position: absolute;
+    max-height: 100px;
+    max-width: 100%;
+    left: 0;
+    right: 0;
+    bottom: -500px;
+}
+.containerfooter{
+    display: flex;
+    justify-content: space-evenly;
+    padding: 1rem;
+}
+
+.footericon{
+    height: 50px;
+    width: 50px;
+}
+
+.footerlink{
+    display: flex;
+    justify-content: center;
+    
+}
+/* Frase inicial */
+h1{
+    font-family: 'Fira Sans Extra Condensed', sans-serif;
+    color: whitesmoke;
+    font-size: 40px;
+    display: flex;
+    justify-content: center;
+    margin-top: 2.5rem;
+}
+
+.fraseinicial{
+    background-image: url(/images/fotor-ai-2023120214210.jpg);
+    background-position: top center;
+    background-repeat: no-repeat;  
+    width: 100%;
+    height: 20vh;
+    background-size: cover;
+    color: whitesmoke;
+    text-align: center;
+    padding-top: 1rem;
+    margin-bottom: 1rem;
+}
+
+/* About me */
+h3{
+    background-color: #050F34 ;
+    opacity: 90%;
+    color: whitesmoke;
+    width: 280px;
+    border-radius: 50px;
+    padding: 1rem;
+    font-size: 40px;
+    margin-bottom: 20px;
+}
+
+.p-1{
+    display: inline;
+    color: black;
+    font-size: 20px;
+    text-align: left;
+    width: 200px;
+    margin-bottom: 2rem;
+    
+}
+
+.aboutmebox{
+    display: inline;
+    width: 300px;
+    min-width: 300px;
+    max-width: 400px;
+    padding: 4rem; 
+    margin: 5rem;
+}
+
+.containerabout{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 720px;
+    margin: 10px;
+}
+
+.profilepic{
+    position: relative;
+    width: 300px;
+    height: 400px;
+    margin-left: 40px; 
+    padding-top: 5rem;
+    margin-bottom: 5rem;
+    border-radius: 1em;
+}
+
+.aboutme-container{
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    width: 100%;
+}
+
+.containerabout1{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    width: 100%;
+    height: 50px;
+    margin: 10px;
+}
+
+.about-box1{
+    display: inline;
+    width: 700px;
+}
+
+.center{
+    text-align: center;
+}
+
+.botao1{
+    background-color: #050F34;
+    position: absolute;
+    text-align: center;
+    font-size: 23px;
+    width: 150px;
+    height: 30px;
+    margin-left: 6rem;
+    margin-bottom: 3rem;
+    border-radius: 50px;
+    text-decoration: none;
+    color: whitesmoke;    
+}
+
+.botao1:hover{
+    background-color: #0b2274;
+}
+
+.botao2{
+    background-color: #050F34;
+    position: absolute;
+    text-align: center;
+    font-size: 23px;
+    width: 150px;
+    height: 30px;
+    margin-left: 8rem;
+    margin-bottom: 3rem;
+    border-radius: 50px;
+    text-decoration: none;
+    color: whitesmoke;   
+}
+
+.botao2:hover{
+    background-color: #0b2274;
+}
+
+/*portfolio*/
+.titlo{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.h1-3{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: left;
+    align-items: center;
+    background-color: #050F34;
+    width: 100rem;
+    height: 4rem;
+    margin-top: 15px;
+    margin-left: 5rem;
+    margin-right: 5rem;
+    padding-left: 7px;
+    border-radius: 50px;
+}
+
+
+/*resume*/
+.mainpage{
+    margin: 4rem 3rem;
+}
+
+.resumecontainer{
+    display: flex;
+}
+
+.resumebox{
+    display: flex;
+    flex-wrap: wrap;
+    width: 300px;
+    width: 400px;
+    margin-left: 35rem;
+    padding-top: 10rem;
+}
+
+.resumeboximg{
+    display: flex;
+    flex-wrap: wrap;
+    width: 300px;
+    min-width: 300px;
+    max-width: 400px;
+    padding: 1rem; 
+}
+
+.imgresume{
+    margin-top: 11rem;
+    margin-left: 5rem;
+    border-radius: 10rem;
+    width: 300px;
+    height: 300px;
+}
+
+.h1-1{
+    display: flex;
+    justify-content: left;
+    align-items: center;
+    background-color: #050F34;
+    max-width: 300px;
+    height: 4rem;
+    border-radius: 50px;
+    color: whitesmoke;
+    font-size: 40px;
+    padding-left: 7px;
+}
+
+.p-2{
+    font-size: 20px;
+    margin-top: 1rem;
+    width: 300px;
+}
+
+.buttonres{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #050F34;
+    width: 190px;
+    height: 40px;
+    margin-left: 3rem;
+    margin-top: 3rem;
+    color: whitesmoke;
+    border-radius: 50px;
+    text-decoration: none;
+    font-size: 23px;
+}
+
+.buttonres:hover{
+    background-color: #0b2274;
+}
+
+/*contact*/
+.contactcontainer{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.contacttitle{
+    display: flex;
+    background-color: #050F34;
+    width: 50rem;
+    height: 50px;
+    margin-top: 20px;
+    margin-left: 50px;
+    border-radius: 50px;
+
+}
+
+.h1-2{
+    display: flex;
+    justify-content: left;
+    align-items: center;
+    height: 30px;
+    padding-left: 7px;
+    margin-top: 10px;
+    color: whitesmoke;
+    font-size: 40px;
+}
+
+.contactp{
+    margin-left: 55px;
+    margin-top: 5px;
+    font-size: 25px;
+}
+
+.contactimg{
+    display: flex;
+    flex-wrap: wrap;
+    width: 500px;
+    height: 300px;
+}
+
+.contactli{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: left;
+    align-items: center;
+    width: 300px;
+    margin-left: 50px;
+    margin-top: 2rem;
+
+}
+
+.githubicon{
+    width: 60px;
+}
+
+.linkedinicon{
+    width: 60px;
+    margin-left: 5px;
+}
+
+.li{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: left;
+    align-items: center;
+}
+
+.githublink{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    text-decoration: none;
+    color: black;
+    font-size: 20px;
+    margin: 4px;
+    padding: 5px;
+}
+
+.githublink:hover{
+    font-size: 22px;
+    color: #0b2274;
+}
+
+
+.linkedinlink{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    text-decoration: none;
+    color: black;
+    font-size: 20px;
+    margin: 4px;
+    padding: 5px;
+}
+
+.linkedinlink:hover{
+    font-size: 22px;
+    color: #0b2274;
+}
+
+
